@@ -1,0 +1,16 @@
+{
+  "name": "assignment 14 notes system ts",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/index.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "concurrently": "^9.0.0",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.0"
+  }
+}
